@@ -50,7 +50,7 @@ java BankManagmentSystem
 
 Follow the on-screen menu to add customers, view them, or serve the current customer.
 
-## Known limitations / Roadmap
+## Known limitations or Roadmap
 
 - Data is in-memory only — nothing persists between runs
 - Console-based; a GUI or web front end would be a natural next step
