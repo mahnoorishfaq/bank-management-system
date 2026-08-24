@@ -2,14 +2,12 @@ public abstract class Account {
 
     public static final String SAVING_ACCOUNT = "saving";
     public static final String CURRENT_ACCOUNT = "current";
-    protected double balance;  // The balance of the account
+    protected double balance;  
 
-    // Constructor to initialize the balance
     public Account(double balance) {
         this.balance = balance;
     }
 
-    // Abstract methods for deposit and withdraw operations
     public void deposit(double amount) {
         this.balance += amount;
     }
@@ -27,7 +25,6 @@ public abstract class Account {
         return "Balance: " + balance;
     }
 
-    // Getter for balance
     public double getBalance() {
         return balance;
     }
