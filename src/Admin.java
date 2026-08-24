@@ -23,7 +23,6 @@ public class Admin {
                 throw new InvalidAddressException("Address cannot be empty.");
             }
 
-            // Create and add new customer
             Customer newCustomer = new Customer(customerName, customerAddress, customerContact);
             customers.add(newCustomer);
             System.out.println("Customer " + customerName + " has been added successfully!");
