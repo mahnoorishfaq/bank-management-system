@@ -4,7 +4,6 @@ public abstract class Loan {
     protected int tenure;
     protected boolean isApproved;
 
-    // Constructor to initialize loan details
     public Loan(double loanAmount, double interestRate, int tenure) {
         this.loanAmount = loanAmount;
         this.interestRate = interestRate;
