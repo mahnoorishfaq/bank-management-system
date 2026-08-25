@@ -2,14 +2,12 @@ public class LoanAccount extends Account {
     private Loan loan;
     private double remainingBalance;
 
-    // Constructor to initialize Loan Account
     public LoanAccount(Loan loan) {
-        super(0);  // Initial balance is 0 for loan account
+        super(0);  
         this.loan = loan;
-        this.remainingBalance = loan.getLoanAmount(); // Initialize remaining balance with loan amount
+        this.remainingBalance = loan.getLoanAmount();
     }
 
-    // Method to make payment on the loan
     public void makePayment(double paymentAmount) {
         if (paymentAmount <= 0) {
             System.out.println("Invalid payment amount.");
@@ -25,7 +23,6 @@ public class LoanAccount extends Account {
         System.out.println("Payment of " + paymentAmount + " made. Remaining balance: " + remainingBalance);
     }
 
-    // Method to get remaining loan balance
     public double getRemainingBalance() {
         return remainingBalance;
     }
