@@ -56,7 +56,6 @@ class Customer extends Person {
             return null;
         }
 
-        // Method to add an account to the customer
         public String getAddress() {
             return super.address;
         }
