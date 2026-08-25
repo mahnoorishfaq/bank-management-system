@@ -4,7 +4,6 @@ public abstract class Person {
     protected String contactNumber;
 
 
-    // Constructor to initialize the person details
     public Person(String name, String address, String contactNumber)
             throws InvalidNameException, InvalidAddressException, InvalidContactNumberException {
         if (name == null || name.isEmpty()) {
@@ -22,10 +21,7 @@ public abstract class Person {
         this.contactNumber = contactNumber;
     }
 
-    // Abstract Method
     public abstract String getName();
-
-    // Method to update details
     public void updateDetails(String name, String address, String contactNumber)
             throws InvalidNameException, InvalidAddressException, InvalidContactNumberException {
         if (name == null || name.isEmpty()) {
