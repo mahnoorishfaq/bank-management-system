@@ -14,7 +14,7 @@ A console-based Java application modeling core banking operations customer onboa
 
 ## Tech Stack
 - Java 21
-- No external dependencies — pure Java, compiled with `javac`
+- No external dependencies pure Java, compiled with `javac`
 
 ## Project Structure
 
