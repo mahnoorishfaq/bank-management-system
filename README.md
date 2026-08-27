@@ -1,6 +1,6 @@
 # Bank Management System
 
-A console-based Java application modeling core banking operations — customer onboarding, account types, transactions, and loan processing — built to practice OOP fundamentals: inheritance, interfaces, custom exceptions, and encapsulation.
+A console-based Java application modeling core banking operations customer onboarding, account types, transactions, and loan processing built to practice OOP fundamentals: inheritance, interfaces, custom exceptions, and encapsulation.
 
 ![java](https://img.shields.io/badge/java-21-orange) ![status](https://img.shields.io/badge/status-functional-brightgreen)
 
