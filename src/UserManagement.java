@@ -3,4 +3,4 @@ interface UserManagement {
             throws Exception;// throws an exception if login fails
     void logout();
 }
-// purpose of this class ------> interface and provide a user-related operations.
+// purpose of this class -----> interface and provide a user-related operations.
