@@ -12,7 +12,7 @@ A console-based Java application modeling core banking operations customer onboa
 - Loan handling via a `Loan` base class and `LoanService` interface, with EMI calculation
 - Transaction logging and customer notifications
 
-## Tech Stack
+## 🛠️ Tech Stack
 - Java 21
 - No external dependencies pure Java, compiled with `javac`
 
